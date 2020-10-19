@@ -1,9 +1,15 @@
-# Part A
-# CodeClan student.
+class Student:
+    def __init__(self, name, cohort):
+        self.name = name
+        self.cohort = cohort
 
-# The files for this section can be found in single_class_lab_start_code/student_class
+    def talk(self):
+        return "I can talk!"
 
-# You should write your code in the the src/student.py file. The tests we have provided are in tests/student_test.py They are all skipped at the moment. You should work through the tests one at a time, deleting the line which causes the test to skip.
+    def say_favourite_language(self, favourite_language):
+        return "I love " + favourite_language
+    
+
 
 # To run the tests:
 
